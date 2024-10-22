@@ -740,11 +740,13 @@ Icon is represented by (!icon/icon_name), see {@link KeyboardIconsSet}.
 
 Code is one of the following:
 - Code point presented by hexadecimal string prefixed with "0x"
-- Code reference represented by (!code/code_name), see {@link KeyboardCodesSet}.
+- Code reference represented by (!code/code_name), see [Codes and Icons](#codes-and-icons).
 
 Special character, comma ',' backslash '\', and bar '|' can be escaped by '\' character.
 Note that the '\' is also parsed by XML parser and {@link MoreKeySpec#splitKeySpecs(String)}
 as well.
+
+See valid icon names and code names in [Codes and Icons](#codes-and-icons)
 
 
 ## Case Selector
@@ -1018,3 +1020,95 @@ Represents the behavior of a row's visibility with respect to the number row in 
 
 #### `Hideable`
 *   **Description**: This row only displays when the number row is inactive.
+
+
+# Codes and icons
+
+Codes: (e.g. `!code/key_tab`)
+* `key_tab`
+* `key_enter`
+* `key_space`
+* `key_shift`
+* `key_capslock`
+* `key_switch_alpha_symbol`
+* `key_output_text`
+* `key_delete`
+* `key_settings`
+* `key_shortcut`
+* `key_action_next`
+* `key_action_previous`
+* `key_shift_enter`
+* `key_language_switch`
+* `key_emoji`
+* `key_alpha_from_emoji`
+* `key_to_number_layout`
+* `key_to_alt_0_layout`
+* `key_to_alt_1_layout`
+* `key_to_alt_2_layout`
+* `key_unspecified`
+* `action_{...}` (e.g. `!code/action_emoji`)
+
+
+Icons: (e.g. `!icon/go_key`)
+* `undefined`
+* `shift_key`
+* `shift_key_shifted`
+* `delete_key`
+* `settings_key`
+* `space_key`
+* `space_key_for_number_layout`
+* `enter_key`
+* `go_key`
+* `search_key`
+* `send_key`
+* `next_key`
+* `done_key`
+* `previous_key`
+* `tab_key`
+* `zwnj_key`
+* `zwj_key`
+* `emoji_action_key`
+* `emoji_normal_key`
+* `numpad`
+* `action_{...}` (e.g. `!icon/action_emoji`)
+
+Actions:
+* `emoji`
+* `settings`
+* `paste`
+* `text_edit`
+* `themes`
+* `undo`
+* `redo`
+* `voice_input`
+* `system_voice_input`
+* `switch_language`
+* `clipboard_history`
+* `mem_dbg`
+* `cut`
+* `copy`
+* `select_all`
+* `more`
+* `bugs`
+* `keyboard_modes`
+* `up`
+* `down`
+* `left`
+* `right`
+
+
+Combine icon and code with |, e.g. `!icon/delete_key|!code/key_delete` or `!icon/action_emoji|!code/action_emoji`.
+
+Example usage:
+```yaml
+name: Arrow keys with a and b
+rows:
+  - letters:
+    - "!icon/action_up|!code/action_up"
+    - "!icon/action_down|!code/action_down"
+    - "!icon/action_left|!code/action_left"
+    - "!icon/action_right|!code/action_right"
+  - letters:
+    - "a"
+    - "b"
+```
