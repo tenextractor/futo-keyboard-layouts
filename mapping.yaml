@@ -380,6 +380,7 @@ languages:
   lo_LA:
     - lao
   lt:
+    - lithuanian_qwerty
     - qwerty
     - qwertz
     - dvorak
