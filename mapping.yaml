@@ -12,6 +12,7 @@ languages:
     - nordic
   ar:
     - arabic
+    - arabic_pc
     - lulua
   az_AZ:
     - qwerty
