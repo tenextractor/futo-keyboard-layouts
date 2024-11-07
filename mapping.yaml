@@ -12,6 +12,7 @@ languages:
     - nordic
   ar:
     - arabic
+    - arabic_pc
     - lulua
   az_AZ:
     - qwerty
@@ -191,6 +192,7 @@ languages:
     - pcqwerty
     - nordic
   et_EE:
+    - estonian
     - nordic
     - qwerty
     - qwertz
@@ -238,6 +240,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - azerty_inclusive
+    - bepo_inclusive
   fr_CA:
     - qwerty
     - swiss
@@ -392,6 +396,7 @@ languages:
   lo_LA:
     - lao
   lt:
+    - lithuanian_qwerty
     - qwerty
     - qwertz
     - dvorak
