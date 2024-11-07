@@ -238,6 +238,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - azerty_inclusive
+    - bepo_inclusive
   fr_CA:
     - qwerty
     - swiss
