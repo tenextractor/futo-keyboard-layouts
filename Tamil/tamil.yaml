@@ -1,40 +1,39 @@
 name: Tamil
 languages: ta-LK ta-IN ta-SG
+minimumFunctionalKeyWidth: 0.0
 rows:
   - letters: # rowkeys_tamil1.xml
-    - ['ஔ', 'ௌ']
-    - ['ஐ', 'ை']
-    - ['ஆ', 'ா']
-    - ['ஈ', 'ீ']
-    - ['ஊ', 'ூ']
+    - {type: case, normal: ['ௌ'], shifted: ['ஔ']}
+    - {type: case, normal: ['ை'], shifted: ['ஐ']}
+    - {type: case, normal: ['ா'], shifted: ['ஆ']}
+    - {type: case, normal: ['ீ'], shifted: ['ஈ']}
+    - {type: case, normal: ['ூ'], shifted: ['ஊ']}
     - ['ம']
     - ['ன']
     - ['ந']
     - ['ங']
     - ['ண']
-    - ['ஞ']
+    - {type: case, normal: ['ஞ'], shifted: ['ஜ']}
   - letters: # rowkeys_tamil2.xml
-    - ['ஓ', 'ோ', 'ௐ']
-    - ['ஏ', 'ே']
-    - ['அ', 'ஃ']
-    - ['இ', 'ி']
-    - ['உ', 'ு']
+    - {type: case, normal: ['ோ', 'ௐ'], shifted: ['ஓ']}
+    - {type: case, normal: ['ே'], shifted: ['ஏ']}
+    - {type: case, normal: ['அ'], shifted: ['ஃ']}
+    - {type: case, normal: ['ி'], shifted: ['இ']}
+    - {type: case, normal: ['ு'], shifted: ['உ']}
     - ['ற']
     - ['ப']
-    - ['க', 'ஹ', 'க்ஷ']
+    - {type: case, normal: ['க'], shifted: ['ஹ']}
     - ['த']
-    - ['ச', 'ஸ', 'ஶ்ரீ']
-    - ['ட']
+    - {type: case, normal: ['ச', 'ஶ்ரீ', 'ஸ'], shifted: ['ஸ']}
+    - {type: case, normal: ['ட'], shifted: ['க்ஷ']}
   - letters: # rowkeys_tamil3.xml
-    - ['ஒ', 'ொ']
-    - ['எ', 'ெ']
+    - {type: case, normal: ['ொ'], shifted: ['ஒ']}
+    - {type: case, normal: ['ெ'], shifted: ['எ']}
     - ['்']
     - ['ர']
     - ['வ']
     - ['ழ']
     - ['ல']
-    - ['ள']
-    - ['ய']
-    - ['ஷ', 'ஜ']
-    - $delete # force no shift key
+    - {type: case, normal: ['ள'], shifted: ['ஷ']}
+    - {type: case, normal: ['ய'], shifted: ['ஶ']}
 # detected 3 rows
