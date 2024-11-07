@@ -191,6 +191,7 @@ languages:
     - pcqwerty
     - nordic
   et_EE:
+    - estonian
     - nordic
     - qwerty
     - qwertz
