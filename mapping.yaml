@@ -366,6 +366,7 @@ languages:
     - hebrew
     - hebrew-staggered
   kab:
+    - kabyle
     - azerty
     - swiss
     - qwerty
