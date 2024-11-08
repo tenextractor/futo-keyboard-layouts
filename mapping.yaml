@@ -366,6 +366,19 @@ languages:
   iw:
     - hebrew
     - hebrew-staggered
+  kab:
+    - kabyle
+    - azerty
+    - swiss
+    - qwerty
+    - qwertz
+    - dvorak
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
   ka_GE:
     - georgian
   kk:
