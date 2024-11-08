@@ -277,6 +277,7 @@ languages:
   hi:
     - hindi
     - hindi_compact
+    - devanagari
   hi_Latn:
     - qwerty
     - qwertz
