@@ -10,7 +10,6 @@ rows:
     - t
     - y
     - u
-    - i
     - {type: case, normal: ['i'], shifted: ['İ']}
     - o
     - p
