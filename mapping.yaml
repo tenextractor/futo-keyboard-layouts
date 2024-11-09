@@ -364,6 +364,8 @@ languages:
   ka_GE:
     - georgian
   kk:
+    - kazakh_cyrillic
+    - kazakh_latin
     - east_slavic
     - russian_student
     - russian_yavert
