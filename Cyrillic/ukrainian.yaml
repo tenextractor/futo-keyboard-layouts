@@ -7,9 +7,9 @@ rows:
   - letters: $shift я ч с м и т ь б ю $delete
   - bottom:
     - $symbols
-    - ї
+    - ['ї', ',']
     - $action
     - $space
     - $contextual
-    - "'"
+    - ["'", '.']
     - $enter
