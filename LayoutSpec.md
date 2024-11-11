@@ -175,6 +175,7 @@ You can use the following template keys:
 * `$number` - switch to numpad mode
 * `$contextual` - contextual key, `/` for URLs and date fields, `@` for email fields, `:` for time fields
 * `$zwnj` - Zero-width non-joiner key, and zero-width joiner key in morekeys.
+* `$optionalzwnj` - same as `$zwnj` if [useZWNJKey](#usezwnjkey) is true, else none
 * `$gap` - regular-width gap
 * `$alt0` - switch to alt page 0, or back from alt page 0
 * `$alt1` - switch to alt page 1, or back from alt page 1
@@ -433,7 +434,7 @@ One of `numbers`, `letters` or `bottom` must be defined.
 *   **Optional**: One of `numbers`, `letters` or `bottom` must be defined.
 *   **Default Value**: `null`
 *   **Behavior**:
-    *   If defined, this is a bottom row. Bottom row should typically contain: `$symbols , $action $space . $enter`
+    *   If defined, this is a bottom row. Bottom row should typically contain: `$symbols , $action $space $optionalzwnj . $enter`
 
 The default bottom row is the following:
 ```yaml
@@ -443,6 +444,7 @@ The default bottom row is the following:
       fallbackKey: ","
     - $action
     - $space
+    - $optionalzwnj
     - "."
     - $enter
 ```
