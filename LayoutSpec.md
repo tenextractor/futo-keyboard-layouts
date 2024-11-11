@@ -433,7 +433,19 @@ One of `numbers`, `letters` or `bottom` must be defined.
 *   **Optional**: One of `numbers`, `letters` or `bottom` must be defined.
 *   **Default Value**: `null`
 *   **Behavior**:
-    *   If defined, this is a bottom row. Bottom row should typically contain: `$symbols , $action $space $contextual . $enter`
+    *   If defined, this is a bottom row. Bottom row should typically contain: `$symbols , $action $space . $enter`
+
+The default bottom row is the following:
+```yaml
+- bottom:
+    - $symbols
+    - type: contextual
+      fallbackKey: ","
+    - $action
+    - $space
+    - "."
+    - $enter
+```
 
 #### `rowHeight`
 
@@ -851,7 +863,7 @@ This is not intended to be used in layouts, instead please use the `$action` sho
 
 ## Contextual
 ### Overview
-The `ContextualKey` data class represents a contextual key. It's shown only in specific keyboard layouts as defined here:
+The `ContextualKey` data class represents a contextual key. In specific text field types, it displays a key useful for that text field type, as defined here:
 ```kotlin
         KeyboardId.MODE_EMAIL    to BaseKey(spec = "@", attributes = attributes),
         KeyboardId.MODE_URL      to BaseKey(spec = "/", attributes = attributes),
@@ -859,9 +871,10 @@ The `ContextualKey` data class represents a contextual key. It's shown only in s
         KeyboardId.MODE_DATE     to BaseKey(spec = "/", attributes = attributes),
         KeyboardId.MODE_TIME     to BaseKey(spec = ":", attributes = attributes),
 ```
-Defined in yaml using `type: contextual`
 
-This is not intended to be used in layouts, instead please use the `$contextual` shortcut when possible.
+If the current text field does not match any of the types (e.g. it's a normal text field), it uses the fallbackKey. If fallbackKey is null (or if you use `$contextual`) then no key will be displayed at all.
+
+Defined in yaml using `type: contextual`
 
 ### Properties
 
@@ -870,6 +883,11 @@ This is not intended to be used in layouts, instead please use the `$contextual`
 *   **Type**: `KeyAttributes`
 *   **Default Value**: blank
 
+
+#### `fallbackKey`
+*   **Description**: Default key to use in normal text fields that are not listed above
+*   **Type**: `Key?`
+*   **Default Value**: `null`
 
 --- --- ---
 
