@@ -507,11 +507,6 @@ All layouts currently leave this default.
 *   **Type**: `String`
 *   **Default Value**: `"number"`
 
-#### `numberShifted`
-*   **Description**: The layout used when the keyboard is in shifted numpad mode (this is currently unused).
-*   **Type**: `String`
-*   **Default Value**: `"number_shift"`
-
 #### `phone`
 *   **Description**: The layout used when the keyboard is in phone mode.
 *   **Type**: `String`
