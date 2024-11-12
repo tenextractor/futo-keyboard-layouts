@@ -26,6 +26,7 @@ languages:
     - pcqwerty
     - nordic
   be_BY:
+    - belarusian
     - east_slavic
     - russian_student
     - russian_yavert
