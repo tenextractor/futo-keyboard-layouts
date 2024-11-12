@@ -1,5 +1,6 @@
 name: "BEPO (full)"
 languages: fr
+minimumFunctionalKeyWidth: 0.0
 rows:
   - letters:
       - ['b']
