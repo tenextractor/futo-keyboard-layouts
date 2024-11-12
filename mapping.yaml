@@ -15,6 +15,7 @@ languages:
     - arabic_pc
     - lulua
   az_AZ:
+    - azerbaijani
     - qwerty
     - qwertz
     - dvorak
