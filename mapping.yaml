@@ -240,6 +240,7 @@ languages:
     - colemak_dh
     - colemak_dh_ansi
     - bepo
+    - bepo_alt
     - pcqwerty
     - nordic
     - azerty_inclusive
@@ -254,8 +255,10 @@ languages:
     - colemak_dh
     - colemak_dh_ansi
     - bepo
+    - bepo_alt
     - pcqwerty
     - nordic
+    - bepo_inclusive
   fr_CH:
     - swiss
     - qwerty
@@ -266,8 +269,10 @@ languages:
     - colemak_dh
     - colemak_dh_ansi
     - bepo
+    - bepo_alt
     - pcqwerty
     - nordic
+    - bepo_inclusive
   gl_ES:
     - spanish
     - qwerty
