@@ -10,6 +10,5 @@ rows:
     - ['ї', ',']
     - $action
     - $space
-    - $contextual
     - ["'", '.']
     - $enter
