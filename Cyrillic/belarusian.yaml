@@ -43,7 +43,6 @@ rows:
     - ё
     - $action
     - $space
-    - $contextual
     - ["'", "«", "»", "„", "“", "‚", "‘"]
     - '.'
     - $enter
