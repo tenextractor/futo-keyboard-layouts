@@ -592,6 +592,7 @@ languages:
     - pcqwerty
     - nordic
   uk:
+    - ukrainian
     - east_slavic
     - russian_student
     - russian_yavert
