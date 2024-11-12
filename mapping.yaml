@@ -365,11 +365,12 @@ languages:
     - georgian
   kk:
     - kazakh_cyrillic
-    - kazakh_latin
     - east_slavic
     - russian_student
     - russian_yavert
     - russian_yazhert
+  kk_Latn:
+    - kazakh_latin
   km_KH:
     - khmer
   kn_IN:
