@@ -603,6 +603,8 @@ languages:
     - russian_student
     - russian_yavert
     - russian_yazhert
+  ur:
+    - urdu_phonetic
   uz_UZ:
     - uzbek
   vi:
