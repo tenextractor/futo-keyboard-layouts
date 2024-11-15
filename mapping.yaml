@@ -371,7 +371,8 @@ languages:
   km_KH:
     - khmer
   kn_IN:
-    - kannada
+    - kannada_inscript
+    - kannada_old
   ky:
     - east_slavic
     - russian_student
@@ -538,11 +539,14 @@ languages:
     - pcqwerty
     - nordic
   ta_IN:
-    - tamil
+    - tamil_inscript
+    - tamil_old
   ta_LK:
-    - tamil
+    - tamil_inscript
+    - tamil_old
   ta_SG:
-    - tamil
+    - tamil_inscript
+    - tamil_old
   te_IN:
     - telugu
   th:
