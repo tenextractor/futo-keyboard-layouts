@@ -574,6 +574,12 @@ languages:
     - tamil
   te_IN:
     - telugu
+  tg:
+    - tajik
+    - east_slavic
+    - russian_student
+    - russian_yavert
+    - russian_yazhert
   th:
     - thai
   tl:
