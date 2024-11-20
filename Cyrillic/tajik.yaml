@@ -3,10 +3,35 @@ languages: tg
 minimumFunctionalKeyWidth: 0.0
 rows:
   - letters:
-    - ё
-    - ғ
-    - ӯ
-    - ['ъ', 'ь', 'ы']
+    - {
+      type: base,
+      spec: "ё",
+      attributes: {
+        width: Grow
+      }
+    }
+    - {
+      type: base,
+      spec: "ғ",
+      attributes: {
+        width: Grow
+      }
+    }
+    - {
+      type: base,
+      spec: "ӯ",
+      attributes: {
+        width: Grow
+      }
+    }
+    - {
+      type: base,
+      spec: "ъ",
+      attributes: {
+        width: Grow
+      },
+      moreKeys: ["ь", "ы"]
+    }
   - letters:
     - й
     - ['қ', 'ц']
