@@ -62,8 +62,9 @@ rows:
     - {type: case, normal: ["\u06af", "\u063a"], shiftedManually: ["\u063a", "\u06af"]}
 
     # U+0647: ه ARABIC LETTER HEH
+    # U+06BE: ھ ARABIC LETTER HEH DOACHASHMEE
     # U+200C: ‌ ZERO WIDTH NON-JOINER
-    - {type: case, normal: ["\u0647", "!icon/zwnj_key|\u200c"], shiftedManually: ["!icon/zwnj_key|\u200c", "\u0647"]}
+    - {type: case, normal: ["\u06be|\u0647", "!icon/zwnj_key|\u200c"], shiftedManually: ["!icon/zwnj_key|\u200c", "\u0647"]}
 
     # U+0698: ژ ARABIC LETTER JEH
     # U+0623: أ ARABIC LETTER ALEF WITH HAMZA ABOVE
