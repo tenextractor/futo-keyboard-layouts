@@ -1,6 +1,5 @@
 name: Kurdish
 languages: ckb
-attributes: {shiftable: false}
 rows:
   - letters: # rowkeys_kurdish1.xml
     # U+0642: ق ARABIC LETTER QAF
