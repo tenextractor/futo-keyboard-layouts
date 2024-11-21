@@ -53,6 +53,7 @@ languages:
     - nordic
   ckb:
     - kurdish
+    - central_kurdish_arabic_g
   cs:
     - qwertz
     - qwerty
@@ -400,6 +401,8 @@ languages:
     - khmer
   kn_IN:
     - kannada
+  ku_Latn:
+    - kurdish_latin
   ky:
     - east_slavic
     - russian_student
