@@ -617,6 +617,8 @@ languages:
     - tatar
   tyv:
     - kyrgyz
+  ug:
+    - uyghur
   uk:
     - ukrainian
     - east_slavic
