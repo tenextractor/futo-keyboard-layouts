@@ -301,6 +301,7 @@ languages:
     - pcqwerty
     - nordic
   hr:
+    - serbian_qwertz
     - qwertz
     - qwerty
     - dvorak
