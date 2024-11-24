@@ -619,6 +619,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    zgh:
+    - amazigh_basic
   zu:
     - qwerty
     - qwertz
