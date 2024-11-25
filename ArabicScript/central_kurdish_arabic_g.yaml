@@ -90,7 +90,6 @@ rows:
     - $action
     - $space
 
-    # U+06D4 "۔" ARABIC FULL STOP
     # U+061F "؟" ARABIC QUESTION MARK
     # U+0654 "ٔ" ARABIC HAMZA ABOVE
     # U+0655 "ٕ" ARABIC HAMZA BELOW
@@ -107,6 +106,7 @@ rows:
     # U+0670 "ٰ" ARABIC SUPERSCRIPT ALEF
     # U+0656 "ٖ" ARABIC SUBSCRIPT ALEF
     # U+0658 "٘" ARABIC MARK NOON GHUNNA
-    - ["\u06D4", "\u061F", "\u0654", "\u0655", "\u064E", "\u064B", "\u0650", "\u064D", "\u064F", "\u0657", "\u064C", "\u0652", "\u0651", "\u0653", "\u0670", "\u0656", "\u0658", '.']
+    # U+06D4 "۔" ARABIC FULL STOP
+    - ['.', "\u061F", "\u0654", "\u0655", "\u064E", "\u064B", "\u0650", "\u064D", "\u064F", "\u0657", "\u064C", "\u0652", "\u0651", "\u0653", "\u0670", "\u0656", "\u0658", "\u06D4"]
 
     - $enter
