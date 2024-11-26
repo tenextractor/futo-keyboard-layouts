@@ -26,6 +26,12 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  ba:
+    - bashkir
+    - east_slavic
+    - russian_student
+    - russian_yavert
+    - russian_yazhert
   be_BY:
     - belarusian
     - east_slavic
@@ -302,6 +308,7 @@ languages:
     - pcqwerty
     - nordic
   hr:
+    - serbian_qwertz
     - qwertz
     - qwerty
     - dvorak
@@ -400,6 +407,7 @@ languages:
   km_KH:
     - khmer
   kn_IN:
+    - kannada_inscript
     - kannada
   ku_Latn:
     - kurdish_latin
@@ -542,6 +550,8 @@ languages:
     - pcqwerty
     - nordic
   sl:
+    - slovenian_qwerty
+    - slovenian_qwertz
     - qwerty
     - qwertz
     - dvorak
@@ -570,10 +580,13 @@ languages:
     - pcqwerty
     - nordic
   ta_IN:
+    - tamil_inscript
     - tamil
   ta_LK:
+    - tamil_inscript
     - tamil
   ta_SG:
+    - tamil_inscript
     - tamil
   te_IN:
     - telugu
@@ -609,6 +622,8 @@ languages:
     - russian_student
     - russian_yavert
     - russian_yazhert
+  ur:
+    - urdu_phonetic
   uz_UZ:
     - uzbek
   vi:
@@ -622,6 +637,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  zgh:
+    - amazigh_basic
   zu:
     - qwerty
     - qwertz

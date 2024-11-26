@@ -106,3 +106,4 @@ rows:
     # U+0645: م ARABIC LETTER MEEM
     # U+0640: ـ ARABIC TATWEEL
     - {type: case, normal: ["\u0645", "\u0640"], shiftedManually: ["\u0640", "\u0645"]}
+
