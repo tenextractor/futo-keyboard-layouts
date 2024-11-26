@@ -619,7 +619,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
-    zgh:
+  zgh:
     - amazigh_basic
   zu:
     - qwerty
