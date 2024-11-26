@@ -1,5 +1,5 @@
 name: Amazigh (Latin)
-languages: zgh
+languages: zgh-latn
 rows:
   - letters: # rowkeys_amazigh1.xml
     - ['a']
