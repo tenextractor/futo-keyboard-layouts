@@ -546,6 +546,8 @@ languages:
     - pcqwerty
     - nordic
   sl:
+    - slovenian_qwerty
+    - slovenian_qwertz
     - qwerty
     - qwertz
     - dvorak
