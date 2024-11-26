@@ -1,0 +1,51 @@
+name: Bengali (InScript)
+languages: bn
+minimumFunctionalKeyWidth: 0.0
+rows:
+  - letters:
+    - {type: case, normal: ['ৌ', '১'], shiftedManually: ['ঔ']}
+    - {type: case, normal: ['ৈ', '২'], shiftedManually: ['ঐ']}
+    - {type: case, normal: ['া', '৩', "অ্যা"], shiftedManually: ['আ']}
+    - {type: case, normal: ['ী', '৪'], shiftedManually: ['ঈ']}
+    - {type: case, normal: ['ূ', '৫'], shiftedManually: ['ঊ']}
+    - ['ভ', '৬']
+    - {type: case, normal: ['হ', '৭'], shiftedManually: ['ঙ']}
+    - {type: case, normal: ['গ', '৮'], shiftedManually: ['ঘ']}
+    - {type: case, normal: ['দ', '৯'], shiftedManually: ['ধ']}
+    - {type: case, normal: ['জ', '০'], shiftedManually: ['ঝ']}
+    - {type: case, normal: ['ড'], shiftedManually: ['ঢ']}
+
+  - letters:
+    - {type: case, normal: ['ো'], shiftedManually: ['ও']}
+    - {type: case, normal: ['ে'], shiftedManually: ['এ']}
+    - {type: case, normal: ['্'], shiftedManually: ['অ']}
+    - {type: case, normal: ['ি'], shiftedManually: ['ই']}
+    - {type: case, normal: ['ু'], shiftedManually: ['উ']}
+    - {type: case, normal: ['প'], shiftedManually: ['ফ']}
+    - {type: case, normal: ['র', 'ৃ', 'ঋ', 'ৰ', 'ৱ', 'ৄ', 'ৠ', "্র", "র্"], shiftedManually: ['ৎ']}
+    - {type: case, normal: ['ক'], shiftedManually: ['খ']}
+    - {type: case, normal: ['ত', 'ৎ'], shiftedManually: ['থ']}
+    - {type: case, normal: ['চ'], shiftedManually: ['ছ']}
+    - {type: case, normal: ['ট'], shiftedManually: ['ঠ']}
+
+  - letters:
+    - $shift
+    - {type: case, normal: ['়'], shiftedManually: ['ঞ']}
+    - {type: case, normal: ['ং'], shiftedManually: ['ঁ']}
+    - {type: case, normal: ['ম'], shiftedManually: ['ণ']}
+    - {type: case, normal: ['ন'], shiftedManually: ['ণ']}
+    - {type: case, normal: ['ব'], shiftedManually: ['ঃ']}
+    - {type: case, normal: ['ল'], shiftedManually: ['?']}
+    - {type: case, normal: ['স'], shiftedManually: ['শ']}
+    - {type: case, normal: ['শ'], shiftedManually: ['ষ']}
+    - {type: case, normal: ['য়'], shiftedManually: ['য']}
+    - $delete
+
+  - bottom:
+    - $symbols
+    - ','
+    - $action
+    - $space
+    - "!icon/zwnj_key|\u200c"
+    - ["।", '॥']
+    - $enter
