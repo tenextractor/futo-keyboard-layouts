@@ -33,7 +33,8 @@ languages:
     - russian_yavert
     - russian_yazhert
   be_BY:
-    - belarusian
+    - belarusian_cyrillic
+    - belarusian_latin
     - east_slavic
     - russian_student
     - russian_yavert
