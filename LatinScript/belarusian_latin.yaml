@@ -1,0 +1,39 @@
+name: Belarusian (Latin)
+languages: be-Latn
+rows:
+  - letters: 
+    - q
+    - w
+    - e
+    - r
+    - t
+    - y
+    - ['u', 'ŭ']
+    - o
+    - p
+  - letters:
+    - a
+    - ['s', 'ś', 'š']
+    - d
+    - f
+    - g
+    - h
+    - j
+    - k
+    - ['l', 'ł', 'ĺ']
+  - letters:
+    - ['z', 'ź', 'ž']
+    - x
+    - ['c', 'ć', 'č']
+    - v
+    - b
+    - ['n', 'ń']
+    - m
+    - э
+  - bottom:
+    - $symbols
+    - $action
+    - $space
+    - ["’", "'", "«", "»", "„", "“", "‚", "‘"]
+    - '.'
+    - $enter
