@@ -1,5 +1,6 @@
 name: Belarusian (Latin)
 languages: be-Latn
+minimumFunctionalKeyWidth: 0.0
 rows:
   - letters: 
     - q
@@ -9,6 +10,7 @@ rows:
     - t
     - y
     - ['u', 'ŭ']
+    - i
     - o
     - p
   - letters:
@@ -20,8 +22,9 @@ rows:
     - h
     - j
     - k
-    - ['l', 'ł', 'ĺ']
+    - ['l', 'ĺ', 'ł'] 
   - letters:
+    - $shift
     - ['z', 'ź', 'ž']
     - x
     - ['c', 'ć', 'č']
@@ -29,11 +32,12 @@ rows:
     - b
     - ['n', 'ń']
     - m
-    - э
+    - $delete
   - bottom:
     - $symbols
+    - type: contextual
+      fallbackKey: ","
     - $action
     - $space
-    - ["’", "'", "«", "»", "„", "“", "‚", "‘"]
-    - '.'
+    - "."
     - $enter
