@@ -35,6 +35,7 @@ languages:
   be_BY:
     - belarusian_cyrillic
     - belarusian_latin
+    - belarusian_latin2
     - east_slavic
     - russian_student
     - russian_yavert
