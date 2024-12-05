@@ -34,12 +34,13 @@ languages:
     - russian_yazhert
   be_BY:
     - belarusian_cyrillic
-    - belarusian_latin
-    - belarusian_latin2
     - east_slavic
     - russian_student
     - russian_yavert
     - russian_yazhert
+  be_Latn:
+    - belarusian_latin
+    - belarusian_latin2
   bg:
     - bulgarian
     - bulgarian_bds
