@@ -35,17 +35,17 @@ rows:
     - {type: case, normal: ['ম'], shiftedManually: ['ণ']}
     - {type: case, normal: ['ন'], shiftedManually: ['ণ']}
     - {type: case, normal: ['ব'], shiftedManually: ['ঃ']}
-    - {type: case, normal: ['ল'], shiftedManually: ['?']}
+    - {type: case, normal: ['ল'], shiftedManually: ['ৃ']}
     - {type: case, normal: ['স'], shiftedManually: ['শ']}
     - {type: case, normal: ['শ'], shiftedManually: ['ষ']}
-    - {type: case, normal: ['য়'], shiftedManually: ['য']}
+    - {type: case, normal: ['য'], shiftedManually: ['য়']}
     - $delete
 
   - bottom:
     - $symbols
-    - ','
+    - {type: case, normal: [','], shiftedManually: ['ঋ']}
     - $action
     - $space
     - "!icon/zwnj_key|\u200c"
-    - ["।", '॥']
+    - {type: case, normal: ["।", "॥"], shiftedManually: ["॥"]}
     - $enter
