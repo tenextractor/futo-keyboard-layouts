@@ -3,7 +3,7 @@ languages: ko
 rows:
   - letters:
     - {type: case, normal: ["ㅂ"], shiftedManually: ["ㅃ"]}
-    - {type: case, normal: ["ㅊ"], shiftedManually: ["ㅉ"]}
+    - {type: case, normal: ["ㅈ"], shiftedManually: ["ㅉ"]}
     - {type: case, normal: ["ㄷ"], shiftedManually: ["ㄸ"]}
     - {type: case, normal: ["ㄱ"], shiftedManually: ["ㄲ"]}
     - {type: case, normal: ["ㅅ"], shiftedManually: ["ㅆ"]}
