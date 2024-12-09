@@ -360,7 +360,7 @@ The `Keyboard` data class represents a keyboard layout definition, serving as th
 #### `overrideWidths`
 
 * **Description**: (optional) Definitions of custom key widths. Values are between 0.0 and 1.0, with 1.0 representing 100% of the keyboard width.
-* **Type**: `Map<`[`KeyWidth`](#key-widths)`, Float>``
+* **Type**: `Map<`[`KeyWidth`](#key-widths)`, Float>`
 * **Optional**: Yes
 * **Default Value**: empty map
 
@@ -756,6 +756,10 @@ Note that the '\' is also parsed by XML parser and {@link MoreKeySpec#splitKeySp
 as well.
 
 See valid icon names and code names in [Codes and Icons](#codes-and-icons)
+
+Note: In moreKeys, `%` tells where to put the automatic morekeys (e.g. the numbers in the top row).
+If no `%` is present, they are automatically put at the end, so you can use `%` to put them in the
+middle. If you want a literal `%` symbol, use `%|%`
 
 
 ## Case Selector
