@@ -409,6 +409,9 @@ languages:
   kn_IN:
     - kannada_inscript
     - kannada
+  ko:
+    - korean_dubeolsik
+    - korean_danmoeum
   ku_Latn:
     - kurdish_latin
   ky:
