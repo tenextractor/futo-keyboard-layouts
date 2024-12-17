@@ -1,5 +1,6 @@
 name: 두벌식 (Dubeolsik)
 languages: ko
+attributes: {shiftable: false}
 rows:
   - letters:
     - {type: case, normal: ["ㅂ"], shiftedManually: ["ㅃ"]}
