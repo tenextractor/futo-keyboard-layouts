@@ -1,5 +1,7 @@
 name: 단모음 (Danmoeum)
 languages: ko
+combiners:
+  - KoreanCombineInitials
 attributes: {shiftable: false}
 minimumFunctionalKeyWidth: 0.0
 rows:
@@ -14,14 +16,14 @@ rows:
     - {type: case, normal: ["ㅔ", "ㅖ"], shiftedManually: ["ㅖ"]}
 
   - letters:
-    - ㅁ
+    - [ㅁ, 1]
     - ㄴ
     - ㅇ
     - ㄹ
     - ㅎ
     - {type: case, normal: ["ㅓ", "ㅕ"], shiftedManually: ["ㅕ"]}
     - {type: case, normal: ["ㅏ", "ㅑ"], shiftedManually: ["ㅑ"]}
-    - ㅣ
+    - [ㅣ, 0]
 
   - letters:
     - ㅋ

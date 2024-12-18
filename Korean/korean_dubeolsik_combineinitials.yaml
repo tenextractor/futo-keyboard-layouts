@@ -1,7 +1,7 @@
-name: 두벌식 (Dubeolsik)
+name: 두벌식 (Dubeolsik) (ㄱㄱ -> ㄲ)
 languages: ko
 combiners:
-  - Korean
+  - KoreanCombineInitials
 attributes: {shiftable: false}
 rows:
   - letters:
