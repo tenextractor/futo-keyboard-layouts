@@ -761,6 +761,22 @@ Note: In moreKeys, `%` tells where to put the automatic morekeys (e.g. the numbe
 If no `%` is present, they are automatically put at the end, so you can use `%` to put them in the
 middle. If you want a literal `%` symbol, use `%|%`
 
+### moreKeys flags
+
+You can customize the order that moreKeys appear, as well as the column count.
+
+* `!autoColumnOrder!3` or `!fixedColumnOrder!3` - force 3 columns, you can put a different number too; auto will lay them out in automatic order, fixed will use the specific order as defined
+* `!hasLabels!` - affects the font size of moreKeys
+* `!needsDividers!` - currently has no effect
+* `!noPanelAutoMoreKey!` - long pressing will type the first morekey instead of opening panel
+
+Example:
+```yaml
+- letters:
+    - ["q", "!fixedColumnOrder!2", "a", "b", "c", "d"] # will lay out 2x2 - a, b; c, d
+    - ["w", "!autoColumnOrder!3", "!hasLabels!", "1", "2", "3", "4", "5", "6"] # 3, 1, 2; 6, 4, 5
+```
+
 
 ## Case Selector
 ### Overview
