@@ -640,7 +640,7 @@ languages:
   zgh:
     - amazigh_basic
     - amazigh_extended
-    zgh-latn:
+  zgh-latn:
     - amazigh_latin
   zu:
     - qwerty
