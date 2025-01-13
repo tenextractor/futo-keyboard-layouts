@@ -479,6 +479,18 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  mt:
+    - maltese
+    - qwerty
+    - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
   my:
     - myanmar_g
   nb:
