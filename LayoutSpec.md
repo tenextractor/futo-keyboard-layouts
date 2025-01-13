@@ -360,7 +360,7 @@ The `Keyboard` data class represents a keyboard layout definition, serving as th
 #### `overrideWidths`
 
 * **Description**: (optional) Definitions of custom key widths. Values are between 0.0 and 1.0, with 1.0 representing 100% of the keyboard width.
-* **Type**: `Map<`[`KeyWidth`](#key-widths)`, Float>``
+* **Type**: `Map<`[`KeyWidth`](#key-widths)`, Float>`
 * **Optional**: Yes
 * **Default Value**: empty map
 
@@ -756,6 +756,26 @@ Note that the '\' is also parsed by XML parser and {@link MoreKeySpec#splitKeySp
 as well.
 
 See valid icon names and code names in [Codes and Icons](#codes-and-icons)
+
+Note: In moreKeys, `%` tells where to put the automatic morekeys (e.g. the numbers in the top row).
+If no `%` is present, they are automatically put at the end, so you can use `%` to put them in the
+middle. If you want a literal `%` symbol, use `%|%`
+
+### moreKeys flags
+
+You can customize the order that moreKeys appear, as well as the column count.
+
+* `!autoColumnOrder!3` or `!fixedColumnOrder!3` - force 3 columns, you can put a different number too; auto will lay them out in automatic order, fixed will use the specific order as defined
+* `!hasLabels!` - affects the font size of moreKeys
+* `!needsDividers!` - currently has no effect
+* `!noPanelAutoMoreKey!` - long pressing will type the first morekey instead of opening panel
+
+Example:
+```yaml
+- letters:
+    - ["q", "!fixedColumnOrder!2", "a", "b", "c", "d"] # will lay out 2x2 - a, b; c, d
+    - ["w", "!autoColumnOrder!3", "!hasLabels!", "1", "2", "3", "4", "5", "6"] # 3, 1, 2; 6, 4, 5
+```
 
 
 ## Case Selector

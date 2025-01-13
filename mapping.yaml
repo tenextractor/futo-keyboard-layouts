@@ -10,6 +10,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  alt:
+    - altai
   ar:
     - arabic
     - arabic_pc
@@ -43,7 +45,14 @@ languages:
     - bulgarian_bds
   bn_BD:
     - bengali_akkhor
+    - bengali_probhat
+    - bengali_inscript
+    - bengali_jatiyo
   bn_IN:
+    - bengali_inscript
+    - bengali_probhat
+    - bengali_akkhor
+    - bengali_jatiyo
     - bengali
   ca:
     - spanish
@@ -71,6 +80,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  cv:
+    - chuvash
   da:
     - nordic
     - qwerty
@@ -280,6 +291,8 @@ languages:
     - pcqwerty
     - nordic
     - bepo_inclusive
+  gag:
+    - gagauz
   gl_ES:
     - spanish
     - qwerty
@@ -292,6 +305,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  ha:
+    - hausa
   hi:
     - hindi
     - hindi_compact
@@ -320,6 +335,7 @@ languages:
     - pcqwerty
     - nordic
   hu:
+    - hungarian
     - qwertz
     - qwerty
     - dvorak
@@ -396,6 +412,8 @@ languages:
     - nordic
   ka_GE:
     - georgian
+  kaa:
+    - karakalpak_latin
   kk:
     - kazakh_cyrillic
     - east_slavic
@@ -412,6 +430,7 @@ languages:
   ku_Latn:
     - kurdish_latin
   ky:
+    - kyrgyz
     - east_slavic
     - russian_student
     - russian_yavert
@@ -472,6 +491,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  my:
+    - myanmar_g
   nb:
     - nordic
   ne_NP:
@@ -533,6 +554,7 @@ languages:
     - pcqwerty
     - nordic
   ro:
+    - romanian
     - qwerty
     - qwertz
     - dvorak
@@ -548,6 +570,8 @@ languages:
     - russian_student
     - russian_yavert
     - russian_yazhert
+  sah:
+    - yakut
   si_LK:
     - sinhala
   sk:
@@ -566,6 +590,18 @@ languages:
     - slovenian_qwertz
     - qwerty
     - qwertz
+    - dvorak
+    - azerty
+    - colemak
+    - colemak_dh
+    - colemak_dh_ansi
+    - bepo
+    - pcqwerty
+    - nordic
+  sq:
+    - albanian
+    - qwertz
+    - qwerty
     - dvorak
     - azerty
     - colemak
@@ -602,8 +638,16 @@ languages:
     - tamil
   te_IN:
     - telugu
+  tg:
+    - tajik
+    - east_slavic
+    - russian_student
+    - russian_yavert
+    - russian_yazhert
   th:
     - thai
+  tk:
+    - turkmen
   tl:
     - spanish
     - qwerty
@@ -628,6 +672,12 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  tt:
+    - tatar
+  tyv:
+    - kyrgyz
+  ug:
+    - uyghur
   uk:
     - ukrainian
     - east_slavic
@@ -651,6 +701,9 @@ languages:
     - nordic
   zgh:
     - amazigh_basic
+    - amazigh_extended
+  zgh-latn:
+    - amazigh_latin
   zu:
     - qwerty
     - qwertz
