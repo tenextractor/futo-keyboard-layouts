@@ -43,6 +43,7 @@ languages:
   bg:
     - bulgarian
     - bulgarian_bds
+    - dvorak
   bn_BD:
     - bengali_akkhor
     - bengali_probhat
