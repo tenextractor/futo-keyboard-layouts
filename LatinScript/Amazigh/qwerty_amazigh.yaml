@@ -1,4 +1,4 @@
-name: QWERTY (Amazigh)
+name: QWERTY (Amazigh-Latin)
 languages: zgh-latn
 rows:
   - letters: # rowkeys_amazigh1.xml
