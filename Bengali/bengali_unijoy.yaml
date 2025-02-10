@@ -1,0 +1,42 @@
+name: bengali unijoy
+languages: bn
+description: Optimized Unijoy layout for Android.
+rows:
+  - letters:
+    - {type: case, normal: [ঙ, ং], shiftedManually: [ং, ১]}
+    - {type: case, normal: [য, য়], shiftedManually: [য়, ২]}
+    - {type: case, normal: [ড, ঢ], shiftedManually: [ঢ, ৩]}
+    - {type: case, normal: [প, ফ], shiftedManually: [ফ, ৪]}
+    - {type: case, normal: [ট, ঠ], shiftedManually: [ঠ, ৫]}
+    - {type: case, normal: [চ, ছ], shiftedManually: [ছ, ৬]}
+    - {type: case, normal: [জ, ঝ], shiftedManually: [ঝ, ৭]}
+    - {type: case, normal: [হ, ঞ], shiftedManually: [ঞ, ৮]}
+    - {type: case, normal: [গ, ঘ], shiftedManually: [ঘ, ৯]}
+    - {type: case, normal: [ড়, ঢ়], shiftedManually: [ঢ়, ০]}
+  - letters:
+    - {type: case, normal: [ৃ, ঃ], shiftedManually: [ঃ]}
+    - {type: case, normal: [ু, উ], shiftedManually: [ূ, ঊ]}
+    - {type: case, normal: [ি, ই], shiftedManually: [ী, ঈ]}
+    - {type: case, normal: [া, আ, অ], shiftedManually: [অ]}
+    - {type: case, normal: [্, ঁ], shiftedManually: {type: base, spec: "ঁ", moreKeys: ["!autoColumnOrder!6", "়", "ৄ", "ঽ", "ৢ", "ৱ", "ৣ", "ৗ", "ৠ", "৺", "ঌ", "ৰ", "ৡ"]}}
+    - {type: case, normal: [ব, ভ], shiftedManually: [ভ]}
+    - {type: case, normal: [ক, খ], shiftedManually: [খ]}
+    - {type: case, normal: [ত, থ, ৎ], shiftedManually: [থ]}
+    - {type: case, normal: [দ, ধ], shiftedManually: [ধ]}
+  - letters: 
+    - $shift
+    - {type: case, normal: [্র, ্য], shiftedManually: [্য]}
+    - {type: case, normal: [ো, ও], shiftedManually: [ৌ, ঔ]}
+    - {type: case, normal: [ে, এ], shiftedManually: [ৈ, ঐ]}
+    - {type: case, normal: [র, ল, র‍্য], shiftedManually: [ল]}
+    - {type: case, normal: [ন, ণ], shiftedManually: [ণ]}
+    - {type: case, normal: [স, ষ], shiftedManually: [ষ]}
+    - {type: case, normal: [ম, শ], shiftedManually: [শ]}
+    - $delete
+  - bottom:
+      - $symbols
+      - {type: contextual, fallbackKey: ","}
+      - $action
+      - $space
+      - {type: base, spec: "।", moreKeys: ["!autoColumnOrder!8", ",", "॥", "?", "!", "!icon/zwnj_key|‌", "!icon/zwj_key|‍", "#", "@", "(", ")", "/", ";", ":", "-", "+", "%"]}
+      - $enter
