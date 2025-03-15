@@ -5,15 +5,15 @@ combiners:
 attributes: {shiftable: false}
 rows:
   - letters:
-    - {type: case, normal: ["ㅂ"], shiftedManually: ["ㅃ"]}
-    - {type: case, normal: ["ㅈ"], shiftedManually: ["ㅉ"]}
-    - {type: case, normal: ["ㄷ"], shiftedManually: ["ㄸ"]}
-    - {type: case, normal: ["ㄱ"], shiftedManually: ["ㄲ"]}
-    - {type: case, normal: ["ㅅ"], shiftedManually: ["ㅆ"]}
+    - {type: case, normal: ["ㅂ", "ㅃ"], shiftedManually: ["ㅃ"]}
+    - {type: case, normal: ["ㅈ", "ㅉ"], shiftedManually: ["ㅉ"]}
+    - {type: case, normal: ["ㄷ", "ㄸ"], shiftedManually: ["ㄸ"]}
+    - {type: case, normal: ["ㄱ", "ㄲ"], shiftedManually: ["ㄲ"]}
+    - {type: case, normal: ["ㅅ", "ㅆ"], shiftedManually: ["ㅆ"]}
     - ㅛ
     - ㅕ
     - ㅑ
-    - {type: case, normal: ["ㅐ"], shiftedManually: ["ㅒ"]}
-    - {type: case, normal: ["ㅔ"], shiftedManually: ["ㅖ"]}
+    - {type: case, normal: ["ㅐ", "ㅒ"], shiftedManually: ["ㅒ"]}
+    - {type: case, normal: ["ㅔ", "ㅖ"], shiftedManually: ["ㅖ"]}
   - letters: ㅁ ㄴ ㅇ ㄹ ㅎ ㅗ ㅓ ㅏ ㅣ
   - letters: ㅋ ㅌ ㅊ ㅍ ㅠ ㅜ ㅡ
