@@ -166,6 +166,10 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  enf:
+    - enets
+  enh:
+    - enets
   eo:
     - spanish
     - qwerty
@@ -434,6 +438,10 @@ languages:
     - korean_dubeolsik
     - korean_dubeolsik_combineinitials
     - korean_danmoeum
+  koi:
+    - komi
+  kpv:
+    - komi
   ku_Latn:
     - kurdish_latin
   ky:
@@ -467,6 +475,10 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  mhr:
+    - mari_meadow
+  mrj:
+    - mari_hill
   mk:
     - south_slavic
   ml_IN:
@@ -527,6 +539,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  nio:
+    - nganasan
   pl:
     - qwerty
     - qwertz
@@ -683,6 +697,8 @@ languages:
     - tatar
   tyv:
     - kyrgyz
+  udm:
+    - udmurt
   ug:
     - uyghur
   uk:
@@ -706,6 +722,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  yrk:
+    - nenets
   zgh:
     - amazigh_basic
     - amazigh_extended
