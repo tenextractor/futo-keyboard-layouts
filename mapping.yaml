@@ -505,6 +505,9 @@ languages:
   ne_NP:
     - nepali_romanized
     - nepali_traditional
+  new_NP:
+    - newa_romanized
+    - newa_traditional
   nl:
     - qwerty
     - qwertz
