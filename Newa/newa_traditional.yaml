@@ -3,7 +3,6 @@ description: Prachalit traditional layout for Nepal Bhasa
 languages: new-NP
 useZWNJKey: true
 rows:
-  - numbers: [["𑑑", "𑑊"], "𑑒", "𑑓", "𑑔", "𑑕", "𑑖", "𑑗", "𑑘", "𑑙", "𑑐"]  # remove after Newa locale (new.json) is supported in make-keyboard-text
   - letters: 
     - {type: case, normal: ["𑐘", "𑐖𑑂𑐘", "𑐟𑑂𑐬", "𑐙"], shifted: ["𑐊", "𑐋", "𑑇", "𑐟𑑂𑐟"]}
     - {type: case, normal: ["𑐢", "𑐃"], shifted: ["𑐄", "𑐅"]}

@@ -2,7 +2,6 @@ name: Newa Romanized
 languages: new-NP
 useZWNJKey: true
 rows:
-  - numbers: [["𑑑", "𑑊"], "𑑒", "𑑓", "𑑔", "𑑕", "𑑖", "𑑗", "𑑘", "𑑙", "𑑐"]
   - letters: 
     - {type: case, normal: ["𑐚", "𑑏"], shifted: ["𑐛"]}  #Q
     - {type: case, normal: ["𑑁"], shifted: ["𑐍"]}  #W
