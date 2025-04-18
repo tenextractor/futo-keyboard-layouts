@@ -542,6 +542,7 @@ languages:
     - pcqwerty
     - nordic
   pt_BR:
+    - spanish
     - qwerty
     - qwertz
     - dvorak
@@ -553,6 +554,7 @@ languages:
     - pcqwerty
     - nordic
   pt_PT:
+    - spanish
     - qwerty
     - qwertz
     - dvorak
