@@ -719,6 +719,8 @@ languages:
     - amazigh_extended
   zgh-latn:
     - amazigh_latin
+    - qwerty_amazigh
+    - qwertz_amazigh
   zu:
     - qwerty
     - qwertz
