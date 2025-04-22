@@ -10,6 +10,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  ak:
+    - akan
   alt:
     - altai
   ar:
@@ -40,9 +42,13 @@ languages:
     - russian_student
     - russian_yavert
     - russian_yazhert
+  be_Latn:
+    - belarusian_latin
+    - belarusian_latin2
   bg:
     - bulgarian
     - bulgarian_bds
+    - bulgarian_dvorak
   bn_BD:
     - bengali_akkhor
     - bengali_probhat
@@ -427,6 +433,10 @@ languages:
   kn_IN:
     - kannada_inscript
     - kannada
+  ko:
+    - korean_dubeolsik
+    - korean_dubeolsik_combineinitials
+    - korean_danmoeum
   ku_Latn:
     - kurdish_latin
   ky:
@@ -499,6 +509,9 @@ languages:
     - nepali_romanized
     - nepali_traditional
     - nepali_traditional_mpp
+  new_NP:
+    - newa_romanized
+    - newa_traditional
   nl:
     - qwerty
     - qwertz
@@ -533,6 +546,7 @@ languages:
     - pcqwerty
     - nordic
   pt_BR:
+    - spanish
     - qwerty
     - qwertz
     - dvorak
@@ -544,6 +558,7 @@ languages:
     - pcqwerty
     - nordic
   pt_PT:
+    - spanish
     - qwerty
     - qwertz
     - dvorak
@@ -705,6 +720,8 @@ languages:
     - amazigh_extended
   zgh-latn:
     - amazigh_latin
+    - qwerty_amazigh
+    - qwertz_amazigh
   zu:
     - qwerty
     - qwertz
