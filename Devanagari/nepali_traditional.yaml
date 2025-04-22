@@ -4,17 +4,17 @@ languages: ne-NP
 useZWNJKey: true
 rows:
   - letters: # rowkeys_nepali_traditional1.xml
-    - {type: case, normal: ["ञ", "ज्ञ", "त्र"], shifted: ["ए", "ऐ", "ऽ", "त्त"]}
-    - {type: case, normal: ["ध", "ई"], shifted: ["उ", "ऊ"]}
+    - {type: case, normal: ["ञ", "%", "ज्ञ", "त्र"], shifted: ["ए", "ऐ", "ऽ", "त्त"]}
+    - {type: case, normal: ["ध", "%", "ई"], shifted: ["उ", "ऊ"]}
     - {type: case, normal: ["भ"], shifted: ["घ"]}
     - {type: case, normal: ["च"], shifted: ["छ"]}
-    - {type: case, normal: ["त", "त्र", "त्त"], shifted: ["ट"]}
+    - {type: case, normal: ["त", "%", "त्र", "त्त"], shifted: ["ट"]}
     - {type: case, normal: ["थ"], shifted: ["ठ"]}
 
     - {type: case, normal: ["ग"], shifted: ["ड"]}
-    - {type: case, normal: ["ष", "क्ष"], shifted: ["ढ"]}
+    - {type: case, normal: ["ष", "%", "क्ष"], shifted: ["ढ"]}
     - {type: case, normal: ["य"], shifted: ["ण"]}
-    - {type: case, normal: ["ृ", "ॄ"], shifted: ["इ", "ई"]}
+    - {type: case, normal: ["ृ", "%", "ॄ"], shifted: ["इ", "ई"]}
     - {type: case, normal: ["े", "ए"], shifted: ["ै", "ऐ"]}
     
   - letters: # rowkeys_nepali_traditional2.xml

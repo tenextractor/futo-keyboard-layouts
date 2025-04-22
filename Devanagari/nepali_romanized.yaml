@@ -3,10 +3,10 @@ languages: ne-NP
 useZWNJKey: true
 rows:
   - letters: # rowkeys_nepali_romanized1.xml
-    - {type: case, normal: ["ट", "॰"], shifted: ["ठ"]}  #Q
+    - {type: case, normal: ["ट", "%", "॰"], shifted: ["ठ"]}  #Q
     - {type: case, normal: ["ौ"], shifted: ["औ"]}  #W
     - {type: case, normal: ["े"], shifted: ["ै"]}  #E
-    - {type: case, normal: ["र", "र्‍|ऱ्"], shifted: ["ृ", "ॄ"]}  #R
+    - {type: case, normal: ["र", "%", "र्‍|ऱ्"], shifted: ["ृ", "ॄ"]}  #R
     - {type: case, normal: ["त"], shifted: ["थ"]}  #T
     - {type: case, normal: ["य"], shifted: ["ञ"]}  #Y
     - {type: case, normal: ["ु"], shifted: ["ू"]}  #U
