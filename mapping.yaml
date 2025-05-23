@@ -404,6 +404,9 @@ languages:
   iw:
     - hebrew
     - hebrew-staggered
+  izh:
+    - izhorian
+    - qwerty
   kab:
     - kabyle
     - azerty
@@ -442,6 +445,9 @@ languages:
     - komi
   kpv:
     - komi
+  krl:
+    - karelian
+    - qwerty
   ku_Latn:
     - kurdish_latin
   ky:
@@ -464,6 +470,9 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  lud:
+    - ludic_veps
+    - qwerty
   lv:
     - qwerty
     - qwertz
@@ -711,6 +720,9 @@ languages:
     - urdu_phonetic
   uz_UZ:
     - uzbek
+  vep:
+    - ludic_veps
+    - qwerty
   vi:
     - qwerty
     - qwertz
@@ -722,6 +734,9 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  vot:
+    - votic
+    - qwerty
   yrk:
     - nenets
   zgh:
