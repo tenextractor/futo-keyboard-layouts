@@ -2,6 +2,7 @@ name: Votic
 languages: vot
 rows:
   - letters:
+    - { type: base, spec: "č", attributes: { width: Grow } }
     - { type: base, spec: "š", attributes: { width: Grow } }
     - { type: base, spec: "ž", attributes: { width: Grow } }
     - { type: base, spec: "õ", attributes: { width: Grow } }
