@@ -602,6 +602,18 @@ languages:
     - russian_yazhert
   sah:
     - yakut
+  se:
+    - sami_northern
+  sje:
+    - sami_pite
+  sju:
+    - sami_ume
+  sma:
+    - sami_southern
+  smj:
+    - sami_lule
+  smn:
+    - sami_inari
   si_LK:
     - sinhala
   sk:
