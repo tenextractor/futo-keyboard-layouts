@@ -1,5 +1,6 @@
 name: Myanmar G
 languages: my
+attributes: {shiftable: false}
 minimumFunctionalKeyWidth: 0.0
 rows:
   - letters:

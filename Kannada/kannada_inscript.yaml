@@ -1,5 +1,6 @@
 name: Kannada (InScript)
 languages: kn-IN
+attributes: {shiftable: false}
 minimumFunctionalKeyWidth: 0.0
 useZWNJKey: true
 rows:
