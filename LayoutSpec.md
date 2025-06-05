@@ -399,6 +399,13 @@ The `Keyboard` data class represents a keyboard layout definition, serving as th
 * **Optional**: Yes
 * **Default Value**: empty list
 
+#### `autoShift`
+
+* **Description**: (optional) Whether or not automatic shifting should apply for this keyboard, when input starts or a sentence is finished.
+* **Type**: `boolean`
+* **Optional**: Yes
+* **Default Value**: true
+
 ## Row
 
 ### Overview
