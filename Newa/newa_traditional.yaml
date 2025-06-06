@@ -2,6 +2,7 @@ name: Newa Traditional
 description: Prachalit traditional layout for Nepal Bhasa
 languages: new-NP
 attributes: {shiftable: false}
+autoShift: false
 useZWNJKey: true
 rows:
   - letters: 

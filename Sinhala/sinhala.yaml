@@ -1,6 +1,7 @@
 name: Sinhala
 languages: si-LK
 attributes: {shiftable: false}
+autoShift: false
 rows:
   - letters: # rowkeys_sinhala1.xml
     - {type: case, normal: ['ු'], shiftedManually: ['ූ']}

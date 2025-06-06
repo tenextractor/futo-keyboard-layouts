@@ -1,6 +1,7 @@
 name: Hindi
 languages: hi
 attributes: {shiftable: false}
+autoShift: false
 rows:
   - letters: # rowkeys_hindi1.xml
       - {type: case, normal: ['ौ', 'ौं'], shiftedManually: ['औ', 'ऒं']}

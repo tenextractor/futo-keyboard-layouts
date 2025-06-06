@@ -1,6 +1,7 @@
 name: Nepali (Romanized)
 languages: ne-NP
 attributes: {shiftable: false}
+autoShift: false
 useZWNJKey: true
 rows:
   - letters: # rowkeys_nepali_romanized1.xml

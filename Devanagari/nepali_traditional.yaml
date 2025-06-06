@@ -1,6 +1,7 @@
 name: Nepali (Traditional)
 languages: ne-NP
 attributes: {shiftable: false}
+autoShift: false
 useZWNJKey: true
 rows:
   - letters: # rowkeys_nepali_traditional1.xml

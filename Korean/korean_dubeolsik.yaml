@@ -3,6 +3,7 @@ languages: ko
 combiners:
   - Korean
 attributes: {shiftable: false}
+autoShift: false
 rows:
   - letters:
     - {type: case, normal: ["ㅂ", "ㅃ"], shiftedManually: ["ㅃ"]}

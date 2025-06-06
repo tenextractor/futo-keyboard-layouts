@@ -2,6 +2,7 @@ name: Devanagari
 description: Optimized Devanagari.
 languages: hi
 attributes: {shiftable: false}
+autoShift: false
 rows:
     - numbers:
           - { type: case, normal: ["ॉ", "ऑ"], shiftedManually: "ऑ" }

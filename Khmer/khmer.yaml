@@ -4,6 +4,7 @@ minimumFunctionalKeyWidth: 0.0
 attributes:
   moreKeyMode: OnlyExplicit
   shiftable: false
+autoShift: false
 numberRowMode: AlwaysDisabled
 rows:
   - letters: # rowkeys_khmer1.xml

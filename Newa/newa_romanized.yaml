@@ -1,6 +1,7 @@
 name: Newa Romanized
 languages: new-NP
 attributes: {shiftable: false}
+autoShift: false
 useZWNJKey: true
 rows:
   - letters: 

@@ -1,6 +1,7 @@
 name: bengali akkhor
 languages: bn-BD
 attributes: {shiftable: false}
+autoShift: false
 useZWNJKey: true
 rows:
   - letters:
