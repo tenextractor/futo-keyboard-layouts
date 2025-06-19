@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Want to report an issue that is not related to keyboard layouts?
+    url: https://github.com/futo-org/android-keyboard/issues/new/choose
+    about: Open an issue on the FUTO Keyboard repository.
   - name: Need a FUTO Keyboard license?
     url: https://pay.futo.org/api/PaymentPortal
     about: Purchase a FUTO Keyboard license with FutoPay
