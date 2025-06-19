@@ -14,16 +14,16 @@ rows:
       - ९
       - ०
   - letters:
-      - {type: case, normal: ्, shifted: अ} 
-      - {type: case, normal: ा, shifted: आ} 
-      - {type: case, normal: ि, shifted: इ} 
+      - {type: case, normal: ्, shifted: अ}
+      - {type: case, normal: ा, shifted: आ}
+      - {type: case, normal: ि, shifted: इ}
       - {type: case, normal: ी, shifted: ई}
-      - {type: case, normal: ु, shifted: उ} 
-      - {type: case, normal: ू, shifted: ऊ} 
-      - {type: case, normal: े, shifted: ए} 
-      - {type: case, normal: ै, shifted: ऐ} 
-      - {type: case, normal: ो, shifted: ओ} 
-      - {type: case, normal: ौ, shifted: औ} 
+      - {type: case, normal: ु, shifted: उ}
+      - {type: case, normal: ू, shifted: ऊ}
+      - {type: case, normal: े, shifted: ए}
+      - {type: case, normal: ै, shifted: ऐ}
+      - {type: case, normal: ो, shifted: ओ}
+      - {type: case, normal: ौ, shifted: औ}
   - letters:
       - क
       - ख
@@ -34,7 +34,7 @@ rows:
       - ज
       - झ
       - {type: case, normal: ॅ, shifted: अॅ}
-      - {type: case, normal: ॉ, shifted: ऑ} 
+      - {type: case, normal: ॉ, shifted: ऑ}
   - letters:
       - ट
       - ठ
@@ -64,16 +64,16 @@ rows:
       - ह
       - ळ
       - क्ष
-      - [ज्ञ,ॐ]
+      - [ज्ञ, ॐ]
       - {type: case, normal: ृ, shifted: ऋ}
-      - {type: case, normal: [ं,ः],  shifted: [अं,अः]}
+      - {type: case, normal: [ं, ः],  shifted: [अं, अः]}
       - $delete
   - bottom:
       - $symbols
       - type: contextual
-        fallbackKey: "," 
-      - "!icon/action_switch_language|!code/action_switch_language" 
+        fallbackKey: ","
+      - "!icon/action_switch_language|!code/action_switch_language"
       - $space
       - .
-      - "!icon/enter_key|!code/key_enter" 
+      - "!icon/enter_key|!code/key_enter"
   
