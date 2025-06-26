@@ -75,5 +75,5 @@ rows:
       - "!icon/action_switch_language|!code/action_switch_language"
       - $space
       - .
-      - "!icon/enter_key|!code/key_enter"
+      - $enter
   
