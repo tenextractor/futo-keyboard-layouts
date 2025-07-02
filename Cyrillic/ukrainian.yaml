@@ -10,6 +10,6 @@ rows:
     - ['ї', ',']
     - $action
     - $space
-    - {type: case, normal: ['.'], shiftedManually: [',']}
     - ["'", '.']
+    - {type: case, normal: ['.'], shiftedManually: [',']}
     - $enter
