@@ -1,5 +1,7 @@
 name: Bengali (InScript)
 languages: bn
+attributes: {shiftable: false}
+autoShift: false
 minimumFunctionalKeyWidth: 0.0
 rows:
   - letters:
