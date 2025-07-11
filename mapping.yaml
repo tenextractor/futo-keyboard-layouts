@@ -353,9 +353,9 @@ languages:
     - pcqwerty
     - nordic
   hr:
-    - croatian_qwertz
     - serbian_qwertz
     - qwertz
+    - south_slavic_qwertz_12
     - qwerty
     - dvorak
     - azerty
@@ -695,6 +695,7 @@ languages:
     - south_slavic
   sr_Latn:
     - serbian_qwertz
+    - south_slavic_qwertz_12
   sv:
     - qwerty
     - nordic

@@ -1,4 +1,4 @@
-name: Croatian QWERTZ
+name: South Slavic Latin QWERTZ (12 key)
 languages: hr
 rows:
   - letters: [[q, \], w, [e, €], r, t, z, u, i, o, p, š, [đ, ^]]
