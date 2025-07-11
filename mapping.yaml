@@ -1,4 +1,8 @@
 languages:
+  abq:
+    - north_caucasian
+  ady:
+    - north_caucasian
   af:
     - qwerty
     - qwertz
@@ -12,12 +16,16 @@ languages:
     - nordic
   ak:
     - akan
+  agx:
+    - north_caucasian
   alt:
     - altai
   ar:
     - arabic
     - arabic_pc
     - lulua
+  av:
+    - north_caucasian
   az_AZ:
     - azerbaijani
     - qwerty
@@ -74,6 +82,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  ce:
+    - north_caucasian
   ckb:
     - kurdish
     - central_kurdish_arabic_g
@@ -103,6 +113,8 @@ languages:
     - colemak_dh_ansi
     - bepo
     - pcqwerty
+  dar:
+    - north_caucasian
   de:
     - german
     - qwertz
@@ -377,6 +389,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+  inh:
+    - north_caucasian
   is:
     - icelandic
     - qwerty
@@ -435,6 +449,8 @@ languages:
     - georgian
   kaa:
     - karakalpak_latin
+  kbd:
+    - north_caucasian
   kk:
     - kazakh_cyrillic
     - east_slavic
@@ -467,6 +483,10 @@ languages:
     - russian_student
     - russian_yavert
     - russian_yazhert
+  lbe:
+    - north_caucasian
+  lez:
+    - north_caucasian
   lo_LA:
     - lao
   lt:
@@ -616,6 +636,8 @@ languages:
     - russian_student
     - russian_yavert
     - russian_yazhert
+  rut:
+    - north_caucasian
   sah:
     - yakut
   se:
@@ -694,6 +716,8 @@ languages:
   ta_SG:
     - tamil_inscript
     - tamil
+  tab:
+    - north_caucasian
   te_IN:
     - telugu
   tg:
@@ -706,6 +730,8 @@ languages:
     - thai
   tk:
     - turkmen
+  tkr_RU:
+    - north_caucasian
   tl:
     - spanish
     - qwerty
