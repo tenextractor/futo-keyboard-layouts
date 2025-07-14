@@ -1,4 +1,5 @@
 name: "Shavian 2-layer"
+autoShift: false
 rows:
   - letters:
       - { type: case, normal: "𐑵", shifted: "𐑿" }
