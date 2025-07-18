@@ -1,5 +1,7 @@
 name: Tamil (InScript)
 languages: ta-LK ta-IN ta-SG
+attributes: {shiftable: false}
+autoShift: false
 minimumFunctionalKeyWidth: 0.0
 rows:
   - letters: # rowkeys_tamil1.xml

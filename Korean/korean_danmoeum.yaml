@@ -3,6 +3,7 @@ languages: ko
 combiners:
   - KoreanCombineInitials
 attributes: {shiftable: false}
+autoShift: false
 minimumFunctionalKeyWidth: 0.0
 rows:
   - letters:

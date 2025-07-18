@@ -1,53 +1,55 @@
 name: Devanagari
 description: Optimized Devanagari.
 languages: hi
+attributes: {shiftable: false}
+autoShift: false
 rows:
     - numbers:
-          - { type: case, normal: ["ॉ", "ऑ"], shifted: "ऑ" }
-          - { type: case, normal: ["१", "ॅ"], shifted: "ॅ" }
-          - { type: case, normal: ["२", "`"], shifted: "`" }
-          - { type: case, normal: ["३", "ॊ"], shifted: "ॊ" }
-          - { type: case, normal: ["४", "ः"], shifted: "ः" }
-          - { type: case, normal: ["५", "।"], shifted: "।" }
-          - { type: case, normal: ["६", "@"], shifted: ["६", "@"] }
-          - { type: case, normal: ["७", "ज्ञ"], shifted: "ज्ञ" }
-          - { type: case, normal: ["८", "क्ष"], shifted: "क्ष" }
-          - { type: case, normal: ["९", "त्र"], shifted: "त्र" }
-          - { type: case, normal: ["०", "श्र"], shifted: "श्र" } # doesnt fix it
+          - { type: case, normal: ["ॉ", "ऑ"], shiftedManually: "ऑ" }
+          - { type: case, normal: ["१", "ॅ"], shiftedManually: "ॅ" }
+          - { type: case, normal: ["२", "`"], shiftedManually: "`" }
+          - { type: case, normal: ["३", "ॊ"], shiftedManually: "ॊ" }
+          - { type: case, normal: ["४", "ः"], shiftedManually: "ः" }
+          - { type: case, normal: ["५", "।"], shiftedManually: "।" }
+          - { type: case, normal: ["६", "@"], shiftedManually: ["६", "@"] }
+          - { type: case, normal: ["७", "ज्ञ"], shiftedManually: "ज्ञ" }
+          - { type: case, normal: ["८", "क्ष"], shiftedManually: "क्ष" }
+          - { type: case, normal: ["९", "त्र"], shiftedManually: "त्र" }
+          - { type: case, normal: ["०", "श्र"], shiftedManually: "श्र" } # doesnt fix it
     - letters:
-          - { type: case, normal: ["ौ", "औ"], shifted: "औ" }
-          - { type: case, normal: ["ै", "ऐ"], shifted: "ऐ" }
-          - { type: case, normal: ["ा", "आ"], shifted: "आ" }
-          - { type: case, normal: ["ी", "ई"], shifted: "ई" }
-          - { type: case, normal: ["ू", "ऊ"], shifted: "ऊ" }
-          - { type: case, normal: ["ब", "भ"], shifted: "भ" }
-          - { type: case, normal: ["ह", "ङ"], shifted: "ङ" }
-          - { type: case, normal: ["ग", "घ"], shifted: "घ" }
-          - { type: case, normal: ["द", "ध"], shifted: "ध" }
-          - { type: case, normal: ["ज", "झ"], shifted: "झ" }
-          - { type: case, normal: ["ड", "ढ"], shifted: "ढ" }
+          - { type: case, normal: ["ौ", "औ"], shiftedManually: "औ" }
+          - { type: case, normal: ["ै", "ऐ"], shiftedManually: "ऐ" }
+          - { type: case, normal: ["ा", "आ"], shiftedManually: "आ" }
+          - { type: case, normal: ["ी", "ई"], shiftedManually: "ई" }
+          - { type: case, normal: ["ू", "ऊ"], shiftedManually: "ऊ" }
+          - { type: case, normal: ["ब", "भ"], shiftedManually: "भ" }
+          - { type: case, normal: ["ह", "ङ"], shiftedManually: "ङ" }
+          - { type: case, normal: ["ग", "घ"], shiftedManually: "घ" }
+          - { type: case, normal: ["द", "ध"], shiftedManually: "ध" }
+          - { type: case, normal: ["ज", "झ"], shiftedManually: "झ" }
+          - { type: case, normal: ["ड", "ढ"], shiftedManually: "ढ" }
     - letters:
-          - { type: case, normal: ["ो", "ओ"], shifted: "ओ" }
-          - { type: case, normal: ["े", "ए"], shifted: "ए" }
-          - { type: case, normal: ["्", "अ"], shifted: "अ" }
-          - { type: case, normal: ["ि", "इ"], shifted: "इ" }
-          - { type: case, normal: ["ु", "उ"], shifted: "उ" }
-          - { type: case, normal: ["प", "फ"], shifted: "फ" }
-          - { type: case, normal: ["र", "ऋ"], shifted: "ऋ" }
-          - { type: case, normal: ["क", "ख"], shifted: "ख" }
-          - { type: case, normal: ["त", "थ"], shifted: "थ" }
-          - { type: case, normal: ["च", "छ"], shifted: "छ" }
-          - { type: case, normal: ["ट", "ठ"], shifted: "ठ" }
+          - { type: case, normal: ["ो", "ओ"], shiftedManually: "ओ" }
+          - { type: case, normal: ["े", "ए"], shiftedManually: "ए" }
+          - { type: case, normal: ["्", "अ"], shiftedManually: "अ" }
+          - { type: case, normal: ["ि", "इ"], shiftedManually: "इ" }
+          - { type: case, normal: ["ु", "उ"], shiftedManually: "उ" }
+          - { type: case, normal: ["प", "फ"], shiftedManually: "फ" }
+          - { type: case, normal: ["र", "ऋ"], shiftedManually: "ऋ" }
+          - { type: case, normal: ["क", "ख"], shiftedManually: "ख" }
+          - { type: case, normal: ["त", "थ"], shiftedManually: "थ" }
+          - { type: case, normal: ["च", "छ"], shiftedManually: "छ" }
+          - { type: case, normal: ["ट", "ठ"], shiftedManually: "ठ" }
     - letters:
           - $shift
-          - { type: case, normal: ["़", "ृ"], shifted: "ृ" }
-          - { type: case, normal: ["ं", "ॐ"], shifted: "ॐ" }
-          - { type: case, normal: ["म", "ँ"], shifted: "ँ" }
-          - { type: case, normal: ["न", "ण"], shifted: "ण" }
-          - { type: case, normal: ["व", "ञ"], shifted: "ञ" }
-          - { type: case, normal: ["ल", "ळ"], shifted: "ळ" }
-          - { type: case, normal: ["स", "श"], shifted: "श" }
-          - { type: case, normal: ["ष", "("], shifted: ["ष", "("] }
-          - { type: case, normal: ["य", ")"], shifted: ["य", ")"] }
+          - { type: case, normal: ["़", "ृ"], shiftedManually: "ृ" }
+          - { type: case, normal: ["ं", "ॐ"], shiftedManually: "ॐ" }
+          - { type: case, normal: ["म", "ँ"], shiftedManually: "ँ" }
+          - { type: case, normal: ["न", "ण"], shiftedManually: "ण" }
+          - { type: case, normal: ["व", "ञ"], shiftedManually: "ञ" }
+          - { type: case, normal: ["ल", "ळ"], shiftedManually: "ळ" }
+          - { type: case, normal: ["स", "श"], shiftedManually: "श" }
+          - { type: case, normal: ["ष", "("], shiftedManually: ["ष", "("] }
+          - { type: case, normal: ["य", ")"], shiftedManually: ["य", ")"] }
           - $delete
 numberRowMode: AlwaysEnabled
