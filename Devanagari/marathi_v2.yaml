@@ -22,7 +22,7 @@ rows:
       - {type: case, normal: [ ु], shifted: [उ]}
       - {type: case, normal: [ ू], shifted: [ऊ]}
       - {type: case, normal: [ े], shifted: [ए]}
-      - {type: case, normal: [ ै], shifted: [ऐ]}
+      - {type: case, normal: [ ै], shifted: [ऐ, ऄ]}
       - {type: case, normal: [ ो], shifted: [ओ]}
       - {type: case, normal: [ ौ], shifted: [औ]}
   - letters:
@@ -34,7 +34,7 @@ rows:
       - [छ]
       - [ज]
       - [झ]
-      - {type: case, normal: [ ृ], shifted: [ऋ]}
+      - {type: case, normal: [ ृ,  ॄ], shifted: [ऋ, ॠ]}
       - {type: case, normal: [ ं,  ः],  shifted: [अं, अः]}
   - letters:
       - [ट]
