@@ -73,7 +73,7 @@ rows:
       - $symbols
       - type: contextual
         fallbackKey: ","
-      - [$action, "!icon/action_switch_language|!code/action_switch_language", "icon/action_emoji|!code/action_emoji"]
+      - $action
       - $space
       - [".", "।"]
       - $enter
