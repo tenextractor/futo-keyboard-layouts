@@ -33,7 +33,7 @@ rows:
       - [छ]
       - [ज]
       - [झ]
-      - {type: case, normal: [ ॅ], shifted: [अॅ]}
+      - {type: case, normal: [ ॅ,  ँ], shifted: [ऍ, ॲ]}
       - {type: case, normal: [ ॉ], shifted: [ऑ]}
   - letters:
       - [ट]
