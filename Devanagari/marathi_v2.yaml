@@ -34,8 +34,8 @@ rows:
       - [छ]
       - [ज]
       - [झ]
-      - {type: case, normal: [ ॅ,  ँ], shifted: [ऍ, ॲ]}
-      - {type: case, normal: [ ॉ], shifted: [ऑ]}
+      - {type: case, normal: [ ृ], shifted: [ऋ]}
+      - {type: case, normal: [ ं,  ः],  shifted: [अं, अः]}
   - letters:
       - [ट]
       - [ठ]
@@ -66,8 +66,8 @@ rows:
       - [ळ]
       - [क्ष]
       - [ज्ञ, ॐ]
-      - {type: case, normal: [ ृ], shifted: [ऋ]}
-      - {type: case, normal: [ ं,  ः],  shifted: [अं, अः]}
+      - {type: case, normal: [ ॅ,  ँ], shifted: [ऍ, ॲ]}
+      - {type: case, normal: [ ॉ], shifted: [ऑ]}
       - $delete
   - bottom:
       - $symbols
