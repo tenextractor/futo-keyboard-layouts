@@ -1,6 +1,7 @@
 name: "मराठी"
 description: "Modern Keyboard Layout for Marathi by Sanmay Joshi"
 languages: mr-IN
+attributes: {moreKeyMode: OnlyExplicit}
 rows:
   - numbers:
       - [१]
@@ -76,4 +77,3 @@ rows:
       - $space
       - [., ।]
       - $enter
-  
