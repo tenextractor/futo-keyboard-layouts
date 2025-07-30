@@ -46,10 +46,10 @@ rows:
       - type: base
         spec: "\u2206"
   - letters:
-      - "£"
-      - "¢"
-      - "€"
-      - "¥"
+      - "$currency1"
+      - "$currency2"
+      - "$currency3"
+      - "$currency4"
 
       # U+2191: "↑" UPWARDS ARROW
       # U+2193: "↓" DOWNWARDS ARROW
