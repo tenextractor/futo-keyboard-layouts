@@ -670,6 +670,15 @@ The `KeyAttributes` data class represents various attributes for keys in a keybo
 *   **Behavior**:
     *   If true, the code and label automatically becomes uppercased when the layout is shifted. If this is not desired, this can be set to false. Shift behavior can be customized by using a CaseSelector.
 
+#### `fastMoreKeys`
+
+*   **Description**: Whether or not the key can be "flicked" to access morekeys instantly, without needing to wait for long press timeout. This does not behave like actual flick keys in terms of allowing flicking in all directions, rather it just triggers the morekey popup.
+*   **Type**: `Boolean?`
+*   **DefaultKeyAttributes Value**: `false`
+*   **Behavior**:
+*   *   When true, the longpress time will be cut in half
+*   *   In addition, it will implicitly add the base key as the first element in moreKeys (you should avoid using fixedColumnOrder)
+
 ### Inheritance
 
 The attributes are inherited in the following order:
