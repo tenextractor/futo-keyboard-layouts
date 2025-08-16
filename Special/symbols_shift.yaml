@@ -26,7 +26,7 @@ rows:
       # U+03A0: "Π" GREEK CAPITAL LETTER PI
       - type: base
         spec: "\u03C0"
-        moreKeys: "\u03A0"
+        moreKeys: ["\u03A0", "μ", "Ω"]
 
       # U+00F7: "÷" DIVISION SIGN
       - type: base
@@ -46,10 +46,10 @@ rows:
       - type: base
         spec: "\u2206"
   - letters:
-      - "£"
-      - "¢"
-      - "€"
-      - "¥"
+      - "$currency1"
+      - "$currency2"
+      - "$currency3"
+      - "$currency4"
 
       # U+2191: "↑" UPWARDS ARROW
       # U+2193: "↓" DOWNWARDS ARROW
