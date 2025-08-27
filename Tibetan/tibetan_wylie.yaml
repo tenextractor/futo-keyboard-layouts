@@ -7,7 +7,7 @@ autoShift: false
 rows:
   - numbers: ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩ ༠
   - letters:
-    - { type: case, normal: ["'", 'q'], shiftedManually: ["`", 'q'] }
+    - q
     - w
     - e
     - r
@@ -32,7 +32,7 @@ rows:
     - z
     - { type: case, normal: ['-', 'x'], shiftedManually: ['~'] }
     - c
-    - v
+    - { type: case, normal: ["'", 'v'], shiftedManually: ["`", 'v'] }
     - b
     - n
     - m
