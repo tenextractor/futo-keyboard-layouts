@@ -1,0 +1,20 @@
+name: Lakota
+languages: lkt
+combiners:
+  - DeadKeyPreCombiner
+  - DeadKey
+rows:
+  # U+00B4 ´ ACUTE ACCENT
+  # U+0301 ◌́ COMBINING ACUTE ACCENT
+  - letters: ['č', 'ǧ', "´|\u0301", 'ȟ', 'ŋ', 'š', 'ž']
+  - letters: q w e r t y u i o p
+  - letters: a s d f g h j k l
+  - letters: $shift z x c v b n m $delete
+  - bottom:
+    - $symbols
+    - ','
+    - $action
+    - $space
+    - ["'", '"']
+    - '.'
+    - $enter
