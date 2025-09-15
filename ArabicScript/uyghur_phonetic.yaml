@@ -1,5 +1,6 @@
 name: Uyghur (Arabic) Phonetic
 languages: ug
+attributes: {shiftable: false}
 autoShift: false
 rows:
   - letters:
