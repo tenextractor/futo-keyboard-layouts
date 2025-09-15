@@ -561,7 +561,7 @@ languages:
   ne_NP:
     - nepali_romanized
     - nepali_traditional_simplified
-    - nepali_traditional_mpp
+    - nepali_traditional
   new_NP:
     - newa_romanized
     - newa_traditional

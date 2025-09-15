@@ -5,7 +5,7 @@ attributes: {shiftable: false}
 autoShift: false
 useZWNJKey: true
 rows:
-  - letters: # rowkeys_nepali_traditional1.xml
+  - letters:
     - {type: case, normal: ["ञ", "%", "ज्ञ", "त्र"], shiftedManually: ["ए", "ऐ", "ऽ", "त्त"]}
     - {type: case, normal: ["ध", "%", "ई"], shiftedManually: ["उ", "ऊ"]}
     - {type: case, normal: ["भ"], shiftedManually: ["घ"]}
@@ -19,7 +19,7 @@ rows:
     - {type: case, normal: ["ृ", "%", "ॄ"], shiftedManually: ["इ", "ई"]}
     - {type: case, normal: ["े", "ए"], shiftedManually: ["ै", "ऐ"]}
     
-  - letters: # rowkeys_nepali_traditional2.xml
+  - letters:
     - {type: case, normal: ["ब"], shiftedManually: ["आ"]}
     - {type: case, normal: ["क", "क्ष"], shiftedManually: ["क्"]}
     - {type: case, normal: ["म"], shiftedManually: ["म्"]}
@@ -33,7 +33,7 @@ rows:
     - {type: case, normal: ["स"], shiftedManually: ["स्"]}
     - {type: case, normal: ["ु", "उ"], shiftedManually: ["ू", "ऊ"]}
 
-  - letters: # rowkeys_nepali_traditional3.xml
+  - letters:
     - {type: case, normal: ["श"], shiftedManually: ["श्र"]}
     - {type: case, normal: ["ह"], shiftedManually: ["ह्"]}
     - {type: case, normal: ["अ"], shiftedManually: ["ऋ", "ॠ"]}
