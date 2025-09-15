@@ -5,24 +5,24 @@ autoShift: false
 rows:
   - letters:
     # U+062C "ج" ARABIC LETTER JEEM
-    - "\u062C"
+    - { type: base, spec: "\u062C", attributes: { width: Grow } }
     # U+0641 "ف" ARABIC LETTER FEH
-    - "\u0641"
+    - { type: base, spec: "\u0641", attributes: { width: Grow } }
     # U+0626 "ئ" ARABIC LETTER YEH WITH HAMZA ABOVE
-    - "\u0626"
+    - { type: base, spec: "\u0626", attributes: { width: Grow } }
     # U+0698 "ژ" ARABIC LETTER JEH
-    - "\u0698"
+    - { type: base, spec: "\u0698", attributes: { width: Grow } }
     # U+06AF "گ" ARABIC LETTER GAF
-    - "\u06AF"
+    - { type: base, spec: "\u06AF", attributes: { width: Grow } }
     # U+062E "خ" ARABIC LETTER KHAH
-    - "\u062E"
+    - { type: base, spec: "\u062E", attributes: { width: Grow } }
     # U+06C6 "ۆ" ARABIC LETTER OE
-    - "\u06C6"
+    - { type: base, spec: "\u06C6", attributes: { width: Grow } }
     # U+0644 "ل" ARABIC LETTER LAM
     # U+0627 "ا" ARABIC LETTER ALEF
-    - "\u0644\u0627"
+    - { type: base, spec: "\u0644\u0627", attributes: { width: Grow } }
     # U+061F "؟" ARABIC QUESTION MARK
-    - "\u061F"
+    - { type: base, spec: "\u061F", attributes: { width: Grow } }
 
   - letters:
     # U+0686 "چ" ARABIC LETTER TCHEH
@@ -118,4 +118,3 @@ rows:
     - ['.', "\u061F", "\u0654", "\u0655", "\u064E", "\u064B", "\u0650", "\u064D", "\u064F", "\u0657", "\u064C", "\u0652", "\u0651", "\u0653", "\u0670", "\u0656", "\u0658", "\u06D4"]
 
     - $enter
-
