@@ -130,6 +130,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - workman
   en_IN:
     - qwerty
     - qwertz
@@ -141,6 +142,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - workman
   en_US:
     - qwerty
     - qwertz
@@ -152,6 +154,7 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - workman
   eo:
     - spanish
     - qwerty
