@@ -399,6 +399,13 @@ The `Keyboard` data class represents a keyboard layout definition, serving as th
 * **Optional**: Yes
 * **Default Value**: empty list
 
+#### `autoShift`
+
+* **Description**: (optional) Whether or not automatic shifting should apply for this keyboard, when input starts or a sentence is finished.
+* **Type**: `boolean`
+* **Optional**: Yes
+* **Default Value**: true
+
 ## Row
 
 ### Overview
@@ -663,6 +670,15 @@ The `KeyAttributes` data class represents various attributes for keys in a keybo
 *   **Behavior**:
     *   If true, the code and label automatically becomes uppercased when the layout is shifted. If this is not desired, this can be set to false. Shift behavior can be customized by using a CaseSelector.
 
+#### `fastMoreKeys`
+
+*   **Description**: Whether or not the key can be "flicked" to access morekeys instantly, without needing to wait for long press timeout. This does not behave like actual flick keys in terms of allowing flicking in all directions, rather it just triggers the morekey popup.
+*   **Type**: `Boolean?`
+*   **DefaultKeyAttributes Value**: `false`
+*   **Behavior**:
+*   *   When true, the longpress time will be cut in half
+*   *   In addition, it will implicitly add the base key as the first element in moreKeys (you should avoid using fixedColumnOrder)
+
 ### Inheritance
 
 The attributes are inherited in the following order:
@@ -760,6 +776,22 @@ See valid icon names and code names in [Codes and Icons](#codes-and-icons)
 Note: In moreKeys, `%` tells where to put the automatic morekeys (e.g. the numbers in the top row).
 If no `%` is present, they are automatically put at the end, so you can use `%` to put them in the
 middle. If you want a literal `%` symbol, use `%|%`
+
+### moreKeys flags
+
+You can customize the order that moreKeys appear, as well as the column count.
+
+* `!autoColumnOrder!3` or `!fixedColumnOrder!3` - force 3 columns, you can put a different number too; auto will lay them out in automatic order, fixed will use the specific order as defined
+* `!hasLabels!` - affects the font size of moreKeys
+* `!needsDividers!` - currently has no effect
+* `!noPanelAutoMoreKey!` - long pressing will type the first morekey instead of opening panel
+
+Example:
+```yaml
+- letters:
+    - ["q", "!fixedColumnOrder!2", "a", "b", "c", "d"] # will lay out 2x2 - a, b; c, d
+    - ["w", "!autoColumnOrder!3", "!hasLabels!", "1", "2", "3", "4", "5", "6"] # 3, 1, 2; 6, 4, 5
+```
 
 
 ## Case Selector
