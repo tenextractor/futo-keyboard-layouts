@@ -564,6 +564,7 @@ languages:
     - nordic
   ne_NP:
     - nepali_romanized
+    - nepali_traditional_simplified
     - nepali_traditional
   new_NP:
     - newa_romanized
