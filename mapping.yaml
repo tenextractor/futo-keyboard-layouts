@@ -14,6 +14,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   ak:
     - akan
   agx:
@@ -38,6 +40,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   ba:
     - bashkir
     - east_slavic
@@ -71,6 +75,7 @@ languages:
     - bengali
     - bengali_unijoy
   bod:
+    - tibetan
     - tibetan_wylie
   ca:
     - spanish
@@ -84,6 +89,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   ce:
     - north_caucasian
   ckb:
@@ -100,6 +107,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   cv:
     - chuvash
   cy:
@@ -115,6 +124,8 @@ languages:
     - colemak_dh_ansi
     - bepo
     - pcqwerty
+    - kasroz
+    - clearflow
   dar:
     - north_caucasian
   de:
@@ -130,6 +141,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   de_CH:
     - swiss
     - qwerty
@@ -142,6 +155,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   dz:
     - tibetan_wylie
   el:
@@ -156,6 +171,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   en_GB:
     - qwerty
     - qwertz
@@ -168,6 +185,8 @@ languages:
     - pcqwerty
     - nordic
     - workman
+    - kasroz
+    - clearflow
   en_IN:
     - qwerty
     - qwertz
@@ -180,6 +199,8 @@ languages:
     - pcqwerty
     - nordic
     - workman
+    - kasroz
+    - clearflow
   en_Shaw:
     - shavian
     - shavian_two_layer
@@ -195,6 +216,8 @@ languages:
     - pcqwerty
     - nordic
     - workman
+    - kasroz
+    - clearflow
   enf:
     - enets
   enh:
@@ -211,6 +234,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   es:
     - spanish
     - qwerty
@@ -235,6 +260,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   es_US:
     - spanish
     - qwerty
@@ -247,6 +274,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   et_EE:
     - estonian
     - nordic
@@ -259,6 +288,8 @@ languages:
     - colemak_dh_ansi
     - bepo
     - pcqwerty
+    - kasroz
+    - clearflow
   eu_ES:
     - spanish
     - qwerty
@@ -271,6 +302,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   fa:
     - farsi
   fi:
@@ -287,6 +320,8 @@ languages:
   fo:
     - faroese
     - qwerty
+    - kasroz
+    - clearflow
   fr:
     - azerty
     - swiss
@@ -302,6 +337,8 @@ languages:
     - nordic
     - azerty_inclusive
     - bepo_inclusive
+    - kasroz
+    - clearflow
   fr_CA:
     - qwerty
     - swiss
@@ -316,6 +353,8 @@ languages:
     - pcqwerty
     - nordic
     - bepo_inclusive
+    - kasroz
+    - clearflow
   fr_CH:
     - swiss
     - qwerty
@@ -330,6 +369,8 @@ languages:
     - pcqwerty
     - nordic
     - bepo_inclusive
+    - kasroz
+    - clearflow
   ga:
     - irish
   gag:
@@ -346,6 +387,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   ha:
     - hausa
   haw:
@@ -365,6 +408,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   hr:
     - serbian_qwertz
     - qwertz
@@ -378,6 +423,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   hu:
     - hungarian
     - qwertz
@@ -390,6 +437,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   hy_AM:
     - armenian_phonetic
   in:
@@ -403,6 +452,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   inh:
     - north_caucasian
   is:
@@ -417,6 +468,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   it:
     - qwerty
     - qwertz
@@ -428,6 +481,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   it_CH:
     - swiss
     - qwerty
@@ -440,6 +495,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   iw:
     - hebrew
     - hebrew-staggered
@@ -459,6 +516,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   ka_GE:
     - georgian
   kaa:
@@ -490,6 +549,8 @@ languages:
   krl:
     - karelian
     - qwerty
+  ks_Latn: 
+    - koashur
   ku_Latn:
     - kurdish_latin
   ky:
@@ -520,6 +581,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   lud:
     - ludic_veps
     - qwerty
@@ -534,6 +597,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   mhr:
     - mari_meadow
   mrj:
@@ -558,6 +623,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   mt:
     - maltese
     - qwerty
@@ -570,6 +637,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   my:
     - myanmar_g
   nb:
@@ -592,6 +661,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   nl_BE:
     - azerty
     - qwerty
@@ -603,6 +674,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   nio:
     - nganasan
   pa_IN:
@@ -618,6 +691,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   pt_BR:
     - spanish
     - qwerty
@@ -630,6 +705,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   pt_PT:
     - spanish
     - qwerty
@@ -642,6 +719,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   ro:
     - romanian
     - qwerty
@@ -654,6 +733,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   ru:
     - east_slavic
     - russian_student
@@ -690,6 +771,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   sl:
     - slovenian_qwerty
     - slovenian_qwertz
@@ -703,6 +786,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   sq:
     - albanian
     - qwertz
@@ -715,6 +800,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   sr:
     - south_slavic
   sr_Latn:
@@ -734,6 +821,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   ta_IN:
     - tamil_inscript
     - tamil
@@ -771,6 +860,10 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
+  tok:
+    - toki_pona
   tr:
     - turkish
     - qwerty
@@ -783,6 +876,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   tt:
     - tatar
   tyv:
@@ -807,16 +902,10 @@ languages:
     - ludic_veps
     - qwerty
   vi:
-    - qwerty
-    - qwertz
-    - dvorak
-    - azerty
-    - colemak
-    - colemak_dh
-    - colemak_dh_ansi
-    - bepo
-    - pcqwerty
-    - nordic
+    - vietnamese_telex
+    - vietnamese_vni
+    - kasroz
+    - clearflow
   vot:
     - votic
     - qwerty
@@ -827,10 +916,17 @@ languages:
   zgh:
     - amazigh_basic
     - amazigh_extended
+    - amazigh_g
   zgh-latn:
     - amazigh_latin
     - qwerty_amazigh
     - qwertz_amazigh
+  zh:
+    - zh_qwerty
+    - zh_stroke
+  zh_Hant:
+    - zh_qwerty
+    - zh_stroke
   zu:
     - qwerty
     - qwertz
@@ -842,6 +938,8 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   zz:
     - qwerty
     - qwertz
@@ -853,9 +951,15 @@ languages:
     - bepo
     - pcqwerty
     - nordic
+    - kasroz
+    - clearflow
   ja:
     - flick
     - japanese_qwerty
     - flick_latin
   ipa:
-    - ipa
+    - ipa_qwerty
+    - ipa_qwerty_more
+    - ipa_qwerty_google
+    - ipa_qwerty_g
+    - ipa_qwerty_more_g

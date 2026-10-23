@@ -39,7 +39,7 @@ rows:
       - k
       - l
       - {type: case, normal: [";", ":"], shifted: ":"}
-      - {type: case, normal: ["'", "\""], shifted: "\""}
+      - {type: case, normal: {type: base, spec: "'", moreKeys: ["\""], swipeLetter: "\""}, shifted: "\""}
       - $delete
   - letters:
       - $shift
